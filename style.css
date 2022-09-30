@@ -1,0 +1,370 @@
+.body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Work Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    margin-bottom: 80px;
+}
+/* navbar */
+header{
+    margin-bottom: -80px;
+}
+.navbar{
+    background: #fff;
+}
+.navbar-brand img {
+    height: 45px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+a.nav-link {
+    margin-left: 28px;
+    color: #010101;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* banner */
+.banner-section{
+    background: url(images/04.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: -1;
+}
+
+.banner-caption{
+    margin-top: 130px;
+}
+
+.banner-caption h3{
+    font-size: 25.6px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.banner-caption h2{
+    font-size: 44.8px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.banner-caption .form-control{
+    padding: 18px 20px;
+}
+
+.banner-caption .btn{
+    padding: 18px 20px;
+}
+
+/* user number */
+.banner-bottom{
+    margin-top: 80px;
+}
+.user-number h2{
+    font-size: 57.6px;
+    font-weight: 500;
+}
+
+/* about */
+.about-section{
+    background: #f7f9ff;
+    margin: 80px 0;
+    padding: 70px 0;
+}
+
+.about-text{
+    margin-top: 120px;
+}
+
+.about-text h1{
+    font-size: 44.8px;
+    font-size: 500;
+}
+
+.about-text p{
+    font-size: 1.3rem;
+    line-height: 1.5em;
+    color: #232323;
+}
+
+/* feature-section */
+.feature-heading{
+    margin-bottom: 70px;
+}
+
+.feature-heading h3{
+    font-size: 44.8px;
+    font-weight: 500;
+}
+
+.feature-heading h4{
+    font-size: 25.6px;
+    font-weight: 300;
+    color: #767676;
+}
+
+.feature-item{
+    background: #FFF;
+    box-shadow: 2.3px 4.33px 30px 0 rgba(64,87,191,0.2);   
+}
+
+.f-item-img{
+    width: 40%;
+    height: 248px;
+}
+
+.f-item-img img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.f-item-text{
+    width: 60%;
+    box-sizing: border-box;
+    padding: 39px 20px;
+}
+
+.f-item-text h3{
+    font-size: 20.8px;
+    font-weight: 500;
+}
+
+.f-item-text p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #767676;
+}
+
+/* Application */
+.app-header h3{
+    font-size: 44.8px;
+    margin-bottom: 70px;
+}
+
+ .app-img a{ 
+    display: block;
+    position: relative;
+}
+
+ .app-img a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 230, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.app-img:hover a::after{
+    opacity: 1;
+    visibility: visible;
+} 
+
+/* app plan */
+.app-plan{
+    background: #f7f9ff;
+    padding: 60px 0;
+}
+
+.app-plan-header{
+    margin-bottom: 70px;
+}
+
+.app-plan-header h3{
+    font-size: 57.6px;
+    margin-bottom: 30px;
+}
+
+.app-plan-header p{
+    font-size: 25.6px;
+    font-weight: 300;
+    color: #767676;
+}
+
+.facility{
+    background: #fff;
+    box-shadow: 2.3px 4.33px 30px 0 rgba(64,87,191,0.2);
+    padding: 50px 80px;
+    box-sizing: border-box;
+}
+
+.facility:nth-child(2){
+    margin-right: 0;
+}
+
+.facility ul span{
+    display: inline-block;
+    font-size: 35px;
+    width: 60px;
+    color: #6278df;
+    font-weight: bold;
+}
+
+.facility h3{
+    font-size: 44.8px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.facility p{
+    font-size:20.8px;
+    font-weight: 300;
+}
+
+.facility ul li{
+    margin: 5px 0;
+    font-size: 22px;
+    color: #767676;
+    font-weight: 300;
+}
+
+/* feedback */
+.feedback-section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.feedback-header{
+    position: relative;
+}
+.feedback-header h3{
+    font-size: 25.6px;
+    font-weight: 300;
+}
+
+.feedback-header p{
+    font-size: 19.8px;
+    font-weight: 300;
+    color: #767676;
+}
+
+.feedback-header span{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80px;
+    font-size: 5.5rem;
+    color: #cccccc;
+    opacity: 0.3;
+}
+
+.feedback-header h1{
+    font-size: 54.8px;
+}
+.author-info{
+    width: 250px;
+    margin: auto;
+}
+
+.author-info img{
+    height: 85px;
+    margin-right: 15px;
+}
+
+.user-detail{
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+
+/* team-history */
+.team-text{
+    margin-bottom: 150px;
+}
+.team-history{
+    background: #f7f9ff;
+    padding: 60px 0;
+}
+
+.team-title h3{
+    font-size: 44.8px;
+    margin-bottom: 50px;
+}
+
+.team-text p{
+    font-size: 20.8px;
+    font-weight: 300;
+}
+
+.card{ 
+    border: none;
+    box-shadow: 2.3px 4.33px 30px 0 rgba(64,87,191,0.2);
+    padding: 30px 0;
+}
+
+.card-img-top{
+    width: 130px;
+    height: auto;
+    margin-top: -75px;
+    margin-left: 15px;
+}
+
+.card-subtitle{
+    font-size: 20.8px;
+}
+
+.card-text{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* contact-section */
+.contact-section{
+    margin-top: 80px;
+}
+
+.contact-header p{
+    font-size: 20.8px;
+    font-weight: 300;
+    color: #767676;
+}
+
+.contact-header h3{
+    font-size: 54.8px;
+    font-weight: 400;
+}
+
+.contact-section .card{
+    padding: 50px 0;
+}
+
+.app-text h3{
+    font-size: 44.8px;
+}
+
+/* footer */
+footer{
+    background: #f7f9ff;
+    margin-bottom: -80px;
+}
+.footer p{
+    font-size: 16px;
+}
+
+
